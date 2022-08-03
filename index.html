@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>liuyijie</title>
+    <style>
+        body{
+            margin:0;
+            width:100vw;
+            height:100vh;
+            background-image:url("picture/field.jpg");
+            background-size:100% 100%;
+            background-repeat:no-repeat;
+            background-position:100%;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+
+        }
+        /**{border:1px solid black}*/
+        .myBackground{
+            background-color:white;
+            opacity:0.5;
+            width:50%;
+            height:100vh;
+            display:flex;
+            flex-direction:column;
+        }
+        .header{
+            flex:1;
+            display:flex;
+            justify-content:center;
+            border-bottom:1px solid black;
+        }
+        .container{
+            flex:5;
+        }
+        .footer{
+            flex:1;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            border-top:1px solid black;
+        }
+        .call{
+            margin:0;
+            padding:16px;
+            font-family:"宋体";
+            font-size:large;
+            font-weight:bold;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="myBackground">
+        <!--头部栏-->
+        <div class="header">
+            <div style="width:25vh;display:flex;flex-direction:column;padding-top:16px;">
+                <p style="font-size:32px;margin:0">我的驿站</p>
+                <p style="align-self:right;text-align:right;margin:0">——My Home</p>
+            </div>
+        </div>
+        <!--内容栏-->
+        <hr>
+        <div class="container">
+            <!--个人简介-->
+            <div>
+                <table>
+                    <tr>
+                        <td width="400px">
+                            <p>个人简介</p>
+                            <p>姓名：xxx</p>
+                            <p>性别：男</p>
+                            <p>生日：10月05日</p>
+                            <p>学校：xxx大学</p>
+                            <p>爱好：阅读，音乐，篮球</p>
+                        </td>
+                        <td>
+                            <p>我是一个普普通通的大学生，专业和计算机没什么交集，学习编程完全是兴趣使然。</p>
+                            <p>也幸好有这么一个兴趣，给我平平淡淡的生活添加了一丝波澜。</p>
+                            <p>有兴趣学习编程的点击下方链接：<a href="https://www.midorg.com/">元岛</a></p>
+                            <p>欢迎一起来学习。</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <hr>
+            <!--联系方式-->
+            <div>
+                <p class="call">联系方式</p>
+                <p class="call">电话：15779779297</p>
+                <p class="call">QQ号：319081598</p>
+                <p class="call">微信：j681d1530l</p>
+            </div>
+        </div>
+        <!--底部栏-->
+        <hr>
+        <div class="footer">
+            <p>有兴趣也可以加我，一起学习进步！</p>
+        </div>
+    </div>
+</body>
+</html>
